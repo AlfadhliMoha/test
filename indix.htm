@@ -1,0 +1,52 @@
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Code</title>
+    <script>
+        function input(){
+            var name1=document.getElementById("textarea").value
+            document.getElementById("output").innerHTML=name1;
+        }
+    </script>
+    <style>
+        #textarea{
+background-color: rgba(19, 16, 16, 0.774);
+color: white;
+width:100% ;
+height: 300px;
+        }
+        #button{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: rgb(80, 117, 117);
+        }
+#output{
+    background-color:rgba(209, 184, 184, 0.774) ;
+    color: rgb(0, 0, 0);
+    width:100% ;
+    height: 300px;
+}
+
+    </style>
+</head>
+<body>
+    <textarea name="" id="textarea" cols="30" rows="10">&lt;h1&gt;alfadhli&lt;/h1&gt;
+
+&lt;p&gt;هل انت محمد الفضلي؟&lt;/p&gt;
+
+&lt;input type="submit"  value="Yes"/&gt; 
+&lt;input type="submit" value="No"/&gt; 
+&lt;/div&gt;</textarea>
+    <button onclick="input()" id="button" type="button">CONSOL </button>
+    <div id="output"><h1>alfadhli</h1>
+
+<p>هل انت محمد الفضلي؟</p>
+
+<input type="submit" value="Yes"> 
+<input type="submit" value="No"> 
+</div>
+
+<div></div></body></html>
